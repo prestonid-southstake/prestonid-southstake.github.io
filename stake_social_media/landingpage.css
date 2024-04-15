@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Hind+Madurai&display=swap');
 
+body {
+    margin-top: 50px; /* Adjust the value as needed */
+}
+
 #content {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
