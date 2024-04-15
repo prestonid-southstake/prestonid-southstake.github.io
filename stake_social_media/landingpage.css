@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Hind+Madurai&display=swap');
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.stake-img {
+    margin-left: 20px;
+    width: 150px;
+    margin-right: 20px;
+        border-radius: 15px; /* Add border-radius to make the edges rounded */
+}
+
+.stake-title {
+    color: black;
+    font-family: 'Damion';
+    font-size: 48px;
+    margin: 0;
+}
+
+.social-title {
+    color: black;
+    font-family: 'Hind Madurai';
+    font-size: 22px;
+    margin: 0;
+}
+
+.social-icon-box {
+    margin-right: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    transition: transform .5s;
+}
+
+.facebook-msg, .instagram-msg {
+    font-family: 'Hind Madurai';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1; /* Add this line to ensure the link text is aligned properly */
+}
+
+.social-buttons-container {
+    margin-top: 15px;
+}
+
+.social-button {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    background-color: #146ba5a4; /* Add background color */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px; /* Add margin between buttons */
+    border-radius: 5px; /* Make button corners sharp */
+}
+
+.social-button:hover {
+    background-color: #4d4e50;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+

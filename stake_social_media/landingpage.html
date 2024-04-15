@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro | Home</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <style>
+        /* Add the media query for smaller screens */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column; /* Change header flex-direction for smaller screens */
+                text-align: center; /* Center align text */
+            }
+
+            .stake-img {
+                margin-left: 0; /* Remove left margin */
+                margin-right: 0; /* Remove right margin */
+                margin-bottom: 10px; /* Add bottom margin */
+            }
+
+            .stake-title {
+                font-size: 30px; /* Reduce font size */
+                margin: 0; /* Remove margin */
+            }
+
+            .social-title {
+                font-size: 18px; /* Reduce font size */
+                margin: 0; /* Remove margin */
+            }
+
+            .social-buttons-container {
+                flex-direction: column; /* Stack buttons vertically */
+            }
+
+            .social-button {
+                width: 100%; /* Make buttons full width */
+                margin-bottom: 5px; /* Adjust margin between buttons */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="stake-box">
+                <img class="stake-img" src="images/christ.png" alt="Stake Social Media">
+            </div>
+        </header>
+        <section id="stake-msg">
+            <h1 class="stake-title">Follow Our Social Media</h1>
+        </section>
+        <section id="social-msg">
+            <h2 class="social-title">Friends of Preston Idaho South Stake</h2>
+        </section>
+        <div class="social-buttons-container">
+            <a href="https://www.facebook.com/profile.php?id=61555041967786" target="_blank" id="facebook" class="social-button">
+                <div class="social-icon-box" id="facebook-box">
+                    <img class="social-icon" id="facebook-img" src="images/facebook.png" alt="Facebook">
+                </div>
+                <span class="social-link">Follow our Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/prestonid.southstake/" target="_blank" id="instagram" class="social-button">
+                <div class="social-icon-box" id="instagram-box">
+                    <img class="social-icon" id="instagram-img" src="images/instagram.png" alt="Instagram">
+                </div>
+                <span class="social-link">Follow our Instagram</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+
